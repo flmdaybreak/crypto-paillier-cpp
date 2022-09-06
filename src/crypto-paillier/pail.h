@@ -3,7 +3,7 @@
 #define SAFEHERON_CRYPTO_PAILLIER_H
 
 #include "crypto-bn/bn.h"
-#include "paillier.pb.h"
+#include "proto_gen/paillier.pb.switch.h"
 
 #include "pail_pubkey.h"
 #include "pail_privkey.h"

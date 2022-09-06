@@ -2,7 +2,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
         crypto-paillier/pail.cpp
         crypto-paillier/pail_privkey.cpp
         crypto-paillier/pail_pubkey.cpp
-        crypto-paillier/paillier.pb.cc
+        crypto-paillier/proto_gen/paillier.pb.switch.cc
         )
 
 # Refer to single internal library only if it's not assembled into a big library.

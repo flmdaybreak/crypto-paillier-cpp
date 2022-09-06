@@ -3,7 +3,7 @@
 
 #include <string>
 #include "crypto-bn/bn.h"
-#include "paillier.pb.h"
+#include "proto_gen/paillier.pb.switch.h"
 
 namespace safeheron{
 namespace pail {
